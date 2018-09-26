@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#cccccc"
+              android:orientation="vertical">
+
+    <TextView
+        android:drawablePadding="4dp"
+        android:drawableLeft="@drawable/keybroad_logo"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/keybroad_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:padding="10dp"
+        android:text="键盘安全输入"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:visibility="visible"/>
+    <View
+        android:visibility="gone"
+        android:background="#c5c5c5"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <include layout="@layout/input"/>
+
+
+</LinearLayout>
